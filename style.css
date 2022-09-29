@@ -114,6 +114,7 @@ button.hidden {
   display: inline-block;
   background: #101010;
   color: #FAFAFA;
+  will-change: transform;
 }
 
 [data-1] .char[style="--char-index:0;"] {
