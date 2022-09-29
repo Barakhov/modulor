@@ -48,6 +48,7 @@ button.empty {
 
 button.hidden {
   opacity: 0;
+  pointer-events: none;
 }
 
 .disclaimer {
@@ -415,11 +416,11 @@ button.hidden {
   }
 
   25% {
-    transform: translateY(-180%)
+    transform: translateY(-160%)
   }
 
   50% {
-    transform: translateY(220%)
+    transform: translateY(200%)
   }
 
   75% {
@@ -427,7 +428,7 @@ button.hidden {
   }
 
   100% {
-    transform: translateY(120%)
+    transform: translateY(200%)
   }
 }
 
