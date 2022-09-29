@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Modulor animation Screenshot</title>
+  <title>Modulor</title>
   <link rel="stylesheet" href="./style.css">
-
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
 
-<div class="buttons">
-  <button class="empty hidden" onclick="empty()">Unfreez screen</button>
-  <button onclick="report()">Freez screen to download image</button>  
-</div>
+  <div class="buttons">
+    <button class="empty hidden" onclick="empty()">Unfreez screen</button>
+    <button onclick="report()">Freez screen to download image</button>
+  </div>
 
-<div class="container">
-  <img width="100%" class="screen" download>
-  <div class="disclaimer"> <p>Right click & save image </p></div>
-</div>
+  <div class="container">
+    <img width="100%" class="screen" download>
+    <div class="disclaimer">
+      <p>Right click & save image </p>
+    </div>
+  </div>
 
-<div data-w>
-<div data-1 data-splitting>MODULOR</div>
-<div data-2 data-splitting>MODULOR</div>
-<div data-3 data-splitting>MODULOR</div>
-<div data-4 data-splitting>MODULOR</div>
-<div data-5 data-splitting>MODULOR</div>
-<div data-6 data-splitting>MODULOR</div>
-<div data-7 data-splitting>MODULOR</div>
-<div data-8 data-splitting>MODULOR</div>  
-</div>
-<!-- partial -->
-  <script src='https://unpkg.com/splitting/dist/splitting.min.js'></script><script  src="./script.js"></script>
+  <div data-w>
+    <div data-1 data-splitting>MODULOR</div>
+    <div data-2 data-splitting>MODULOR</div>
+    <div data-3 data-splitting>MODULOR</div>
+    <div data-4 data-splitting>MODULOR</div>
+    <div data-5 data-splitting>MODULOR</div>
+    <div data-6 data-splitting>MODULOR</div>
+    <div data-7 data-splitting>MODULOR</div>
+    <div data-8 data-splitting>MODULOR</div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+  <script src='https://unpkg.com/splitting/dist/splitting.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
+
 </html>
