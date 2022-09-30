@@ -510,19 +510,19 @@ button[disabled]:hover {
   }
 
   25% {
-    transform: translateY(-140%)
+    transform: translateY(-130%)
   }
 
   50% {
-    transform: translateY(180%)
+    transform: translateY(170%)
   }
 
   75% {
-    transform: translateY(-160%)
+    transform: translateY(-170%)
   }
 
   100% {
-    transform: translateY(180%)
+    transform: translateY(130%)
   }
 }
 
