@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'TWKLausanne';
+  src: url('font/TWKLausanne-400.otf') format('otf')
+}
+
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'TWKLausanne', sans-serif;
   font-size: 16vw;
   font-weight: 500;
   height: 100vh;
@@ -33,7 +38,7 @@ body {
 }
 
 button {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'TWKLausanne', sans-serif;
   color: #a8a8a8;
   background: transparent;
   padding: 8px 12px 6px;
@@ -505,11 +510,11 @@ button[disabled]:hover {
   }
 
   25% {
-    transform: translateY(-160%)
+    transform: translateY(-140%)
   }
 
   50% {
-    transform: translateY(200%)
+    transform: translateY(180%)
   }
 
   75% {
@@ -517,7 +522,7 @@ button[disabled]:hover {
   }
 
   100% {
-    transform: translateY(200%)
+    transform: translateY(180%)
   }
 }
 
