@@ -15,6 +15,7 @@
 
   <div class="buttons">
     <span class="buttons-wrapper">
+      <button class="extra modalButton" onclick="modalShow()">Info</button>
       <button class="extra sum" onclick="handleSum()">Add instance</button>
       <button class="extra rest" disabled onclick="handleRest()">Remove instance</button>
     </span>
@@ -22,7 +23,7 @@
       <button class="empty hidden" onclick="empty()">Unfreez screen</button>
     </span>
     <span class="buttons-wrapper">
-      <button class="extra report" onclick="report()">Freez screen to download image</button>
+      <button class="extra report" onclick="report()">Freez screen</button>
     </span>
   </div>
 
@@ -42,6 +43,17 @@
     <div class="instance hide" data-6 data-splitting>MODULOR</div>
     <div class="instance hide" data-7 data-splitting>MODULOR</div>
     <div data-8 data-splitting>MODULOR</div>
+  </div>
+
+  <div class="modal hide">
+    <div class="modal-container">
+      <h1>Modulor - "Instances"</h1>
+      <p>This is an interactive experience that allows you to add up to 8 instances of the word
+        "MODULOR" to the text animation.</p>
+      <p>You can freez the sceen to create a snapshot of a specific moment and then
+        save it as an image.</p>
+      <span class="closeModal" onclick="modalHide()">Close</span>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>

@@ -57,3 +57,15 @@ function handleRest() {
   let convesion = 8 - counter;
   document.querySelector('[data-'+convesion+']').classList.add('hide');
 }
+
+
+
+let modal = document.querySelector(".modal")
+function modalShow() {
+  modal.classList.remove('hide')
+}
+
+
+function modalHide() {
+  modal.classList.add('hide')
+}
