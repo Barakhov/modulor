@@ -118,6 +118,12 @@ button[disabled]:hover {
   animation: showhide 1.6s ease-in forwards;
 }
 
+.extra.transparent {
+  opacity: 0;
+  pointer-events: none;
+
+}
+
 .modal {
   position: absolute;
   top: 0;

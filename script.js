@@ -12,7 +12,7 @@ let extraButton = document.querySelectorAll(".extra")
 let counter = 1;
 
 function report() { 
- extraButton.forEach(el => el.style.color = 'transparent')
+ extraButton.forEach(el => el.classList.add('transparent'))
   html2canvas(reg, {
     onrendered: function(canvas) {
       let pngUrl = canvas.toDataURL();
@@ -25,7 +25,7 @@ function report() {
 }
 
 function empty() {
-  extraButton.forEach(el => el.style.color = '#a8a8a8')
+  extraButton.forEach(el => el.classList.remove('transparent'))
   img.setAttribute('src', '');
   cnt.classList.remove('hover')  
   emptyButton.classList.add('hidden')
