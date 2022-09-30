@@ -13,6 +13,7 @@ let counter = 1;
 
 function report() { 
  extraButton.forEach(el => el.classList.add('transparent'))
+ img.style.display = "block";
   html2canvas(reg, {
     onrendered: function(canvas) {
       let pngUrl = canvas.toDataURL();
@@ -29,6 +30,7 @@ function empty() {
   img.setAttribute('src', '');
   cnt.classList.remove('hover')  
   emptyButton.classList.add('hidden')
+  img.style.display = "none";
 }
 
 function handleSum() {
